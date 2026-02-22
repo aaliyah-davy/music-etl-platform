@@ -23,10 +23,10 @@ End-to-end streaming + batch music data pipeline with PostgreSQL, Kafka, and Pyt
 
 
 ### Tech Stack
-	•	Database: PostgreSQL 17\
-	•	Message broker: Apache Kafka 3.7.0 (KRaft mode, no Zookeeper)\
-	•	Language: Python 3.11\
-	•	Data manipulation: pandas\
-	•	Logging: Python logging module\
-	•	Containerization: Docker + Docker Compose\
+	•	Database: PostgreSQL 17
+	•	Message broker: Apache Kafka 3.7.0 (KRaft mode, no Zookeeper)
+	•	Language: Python 3.11
+	•	Data manipulation: pandas
+	•	Logging: Python logging module
+	•	Containerization: Docker + Docker Compose
 	•	Batch/analytics: SQL scripts for Postgres
