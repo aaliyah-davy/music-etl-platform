@@ -2,7 +2,7 @@
 End-to-end streaming + batch music data pipeline with PostgreSQL, Kafka, and Python
 
 
-###Features
+### Features
 1.	Streaming ingestion \
   	•	Kafka producer simulates real-time music events.\
   	•	Kafka consumer writes streaming data to music_events table in Postgres.
@@ -22,7 +22,7 @@ End-to-end streaming + batch music data pipeline with PostgreSQL, Kafka, and Pyt
 
 
 
-###Tech Stack\
+### Tech Stack\
 	•	Database: PostgreSQL 17\
 	•	Message broker: Apache Kafka 3.7.0 (KRaft mode, no Zookeeper)\
 	•	Language: Python 3.11\
