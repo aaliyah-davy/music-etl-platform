@@ -1,0 +1,21 @@
+{
+  "name": "postgres-sink",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": "1",
+    "topics": "music_stream",
+
+    "connection.url": "jdbc:postgresql://postgres:5432/music_dw",
+    "connection.user": "admin",
+    "connection.password": "admin",
+
+    "table.name.format": "music_events_sink",
+    "insert.mode": "insert",
+    "auto.create": "false",
+    "auto.evolve": "true",
+    "schemas.enable": "false",
+
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false"
+  }
+}
