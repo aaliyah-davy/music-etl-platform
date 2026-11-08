@@ -1,5 +1,5 @@
 # music-etl-platform
-End-to-end streaming + batch music data pipeline with PostgreSQL, Kafka, and Python
+End-to-end streaming + batch music data pipeline with PostgreSQL, Kafka, Docker, and Python.
 
 
 ### Features
